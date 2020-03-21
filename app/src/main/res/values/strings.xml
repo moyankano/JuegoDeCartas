@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Juego del 20</string>
+    <string name="carta1">Carta1</string>
+    <string name="carta2">Carta2</string>
+    <string name="carta3">Carta3</string>
+    <string name="carta4">Carta4</string>
+    <string name="carta5">Carta5</string>
+    <string name="marcador">Marcador</string>
+    <string name="resultado">Imagen Resultado</string>
+    <string name="cero">0</string>
+</resources>
