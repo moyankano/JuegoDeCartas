@@ -35,8 +35,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            app:srcCompat="@drawable/cruz"
-            android:contentDescription="@string/carta1"/>
+            android:contentDescription="@string/carta1"
+            app:srcCompat="@drawable/cruz" />
 
         <ImageView
             android:id="@+id/imageView2"
@@ -85,11 +85,32 @@
             android:layout_height="0dp"
             android:layout_gravity="center_horizontal"
             android:layout_weight="1"
-            android:animateLayoutChanges="true"
+            android:animateLayoutChanges="false"
+            android:contentDescription="@string/resultado"
             android:textAlignment="center"
             android:visibility="invisible"
-            app:srcCompat="@drawable/ganador"
-            android:contentDescription="@string/resultado"/>
+            app:srcCompat="@drawable/ganador" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.1"
+            android:autofillHints="@string/marcador"
+            android:ems="10"
+            android:enabled="false"
+            android:hint="@string/marcador"
+            android:inputType="number"
+            android:text="@string/cero"
+            android:textAlignment="center" />
+
+        <Chronometer
+            android:id="@+id/chronometer1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            />
 
     </LinearLayout>
 
